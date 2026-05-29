@@ -1,21 +1,9 @@
 {
   "name": "api-simple",
   "version": "1.0.0",
-  "type": "module",
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js"
-  },
-  "dependencies": {
-    "express": "^5",
-    "cors": "^2.8.6"
-  },
-  "devDependencies": {
-    "tsx": "^4",
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/express": "^4.17.21",
-    "@types/cors": "^2.8.17"
   }
 }
